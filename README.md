@@ -1,28 +1,60 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## PlateIQ: Visual Diet Analysis system using YOLOv8
+PlateIQ is an AI-powered visual diet analysis system that allows users to upload food images and instantly receive detailed nutritional insights. Using YOLOv8 for real-time food detection, segmentation, and portion estimation, the system simplifies diet tracking and helps users make informed food choices effortlessly.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+PlateIQ is a smart dietary assessment system designed to automate food recognition and calorie estimation from a single meal image. Traditional diet tracking relies heavily on manual logging or estimation, which is time-consuming and prone to errors. PlateIQ resolves these challenges by integrating advanced computer vision techniques to identify food items, estimate portion sizes, and compute nutritional values automatically.
+
+The system uses the YOLOv8 algorithm for real-time object-level food segmentation and recognition. When a user uploads an image of their meal, the system processes the image, extracts each food item, identifies it using a food database, estimates its quantity using segmentation masks, and then computes calories along with proteins, fats, carbohydrates, and fiber.
+This makes PlateIQ a practical tool for diabetes management, fitness monitoring, and general healthy eating.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
 
+#### Real-time Food Detection using YOLOv8:
+- High-speed and accurate food recognition with object segmentation.
+
+#### Automatic Portion Size Estimation:
+- Uses pixel-level masks and depth estimation to measure meal volume.
+
+#### Nutritional Computation:
+- Calorie, protein, carbohydrate, fat, and fiber calculation.
+
+#### Personalized Dietary Insights:
+- Nutrition suggestions tailored for diabetics, athletes, and general users.
+
+#### High Scalability & Web Deployment:
+- Lightweight model suitable for web-based and mobile applications.
+
+#### Robust Performance:
+- High accuracy (≈98%) even under varying lighting and occlusion conditions.
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+#### Operating System:
+Works on Windows 11 (64-bit).
+#### Programming Environment:
+Python 3.10+ for YOLOv8 and backend processing.
+
+#### Deep Learning Framework:
+Ultralytics YOLOv8 (PyTorch-based) for detection and segmentation.
+
+#### Image Processing Libraries:
+OpenCV for pre-processing and mask-based area estimation.
+
+#### Additional Dependencies:
+
+NumPy, Pandas
+
+Torch / Ultralytics
+
+MiDaS (for depth estimation)
+
+FastAPI/Flask for web API
+
+HTML/CSS/JS for UI
+
+#### Version Control:
+GitHub for repository management and collaboration.
+
+#### IDE:
+VSCode for coding, debugging, and extension support.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
@@ -45,15 +77,26 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+PlateIQ transforms the diet-tracking process by making nutritional assessment fast, automated, and user-friendly. With its YOLOv8-based detection pipeline, it provides highly accurate food recognition and portion estimation even in real-world conditions.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This system supports:
+- Diabetes management with carbohydrate/sugar tracking
+
+- Athletic nutrition with protein-focused recommendations
+
+- General wellness through balanced meal insights
+
+By combining deep learning with nutrition science, PlateIQ offers an effective and scalable solution for hospitals, fitness centers, health apps, and individual users. It enables healthier lifestyle choices and promotes preventive healthcare.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.Banusharath K.A. et al., “Applications of Hybrid Metaheuristic Algorithms for Image Processing,” Springer, 2020.
 
+2.Agarwal R. et al., “Hybrid deep learning algorithm-based food recognition and calorie estimation,” Journal of Food Processing and Preservation, 2023.
 
+3.Rouhafzay A. et al., “Image-based food monitoring and dietary management,” Frontiers in Nutrition, 2025.
+
+4.Konstantakopoulos F.S. et al., “AI systems for food recognition and volume estimation,” IEEE Reviews in Biomedical Engineering, 2023.
+
+5.Jiang L. et al., “DeepFood: food image analysis and dietary assessment,” IEEE Access, 2020.
 
 
