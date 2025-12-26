@@ -59,6 +59,7 @@ VSCode for coding, debugging, and extension support.
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
+<img width="1587" height="2245" alt="Untitled (Posters (Portrait))" src="https://github.com/user-attachments/assets/4a066099-e18a-4468-be0e-c9425ac94d85" />
 
 
 
